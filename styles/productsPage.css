@@ -3,13 +3,50 @@ body{
 }
 
 table{
-    width: 700px;
+    width: 100%;
 }
 
 .col1{
-    background-color: aqua;
+    background-color: rgb(51, 190, 190);
 }
 
 .col2{
     background-color: mediumturquoise;
+}
+
+.style1{
+    color:rgb(74, 108, 109);
+}
+
+.div-buttom{
+    display: flex;
+    width:50%;
+    height: 40%;
+    padding-top: 40%;
+    background-image: url('/src/images/pro1.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+/* a:link{
+    color: #4F1787;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#522258;
+    background-color: transparent;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color: teal;
+} */
+
+a:link , a:visited {
+    color: blue;
 }

@@ -1,0 +1,27 @@
+.banner-photo {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.heading-title {
+  color: deeppink;
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 36%;
+}
+.menu {
+     display: flex;
+     flex-direction:row;
+     list-style-type:none;
+     position:absolute;
+     top:20% ;
+     left: 40%;
+ }
+ .body{
+     padding-bottom: 3%;
+     background-color:hotpink;
+ }
+ ul a{
+     margin-left: 20px;
+ }
