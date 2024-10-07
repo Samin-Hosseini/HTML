@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fill mode animation</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+            margin: 20px;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+        }
+            @keyframes move {
+                0%{
+                    transform: translateX(0);
+                    background-color: #F6E96B;
+                }
+                25%{
+                    transform: translateX(200px);
+                    background-color: #C75B7A;
+                }
+                100%{
+                    transform: translateX(500px);
+                    background-color: #7FA1C3;
+                }
+            }
+            .forwards{
+                animation-name: move;
+                animation-fill-mode: forwards;
+                animation-delay: 3s;
+            }
+            .backward{
+                animation-name: move;
+                animation-fill-mode: backwards;
+                animation-delay: 3s;
+            }
+            .both{
+                animation-name: move;
+                animation-fill-mode: both;
+                animation-delay: 3s;
+            }
+    </style>
+</head>
+<body>
+    <div class="box forwards">forwards</div>
+    <div class="box backward">backward</div>
+    <div class="box both">both</div>
+</body>
+</html>

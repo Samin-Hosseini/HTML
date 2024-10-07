@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 2000;
+        }
+        .container{
+            width: 300px;
+            height: 200px;
+            border: 1px solid #000;
+            position: relative;
+        }
+        .absoluteBox{
+            width: 100px;
+            height: 100px;
+            background-color:cornflowerblue;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .fixedBox{
+            width: 100px;
+            height: 100px;
+            background-color:rgb(13, 42, 95);
+            position: fixed;
+            top: 50px;
+            right: 50px;
+        }
+        .stickyBox{
+            width: 100px;
+            height: 100px;
+            background-color:rgb(9, 71, 187);
+            position: sticky;
+            top: 30px;
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="absoluteBox"></div>
+        <div class="fixedBox"></div>
+        <div class="stickyBox"></div>
+    </div>
+
+    <p>my mother has <span style="color: blue;">blue</span>  eyes.</p>
+</body>
+</html>
