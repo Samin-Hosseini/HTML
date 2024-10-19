@@ -215,15 +215,252 @@
 //     console.log(mySet.has(1));
 // }
 
-const example5=()=>{
-    const colorMap=new Map();
-    colorMap.set('book1','blue');
-    colorMap.set('book2','red');
-    colorMap.set('book3','green');
-    const listForm=document.getElementById("colors");
-    for (let [key,value] of colorMap){
-        const option=document.createElement('option');
-        option.value=[value];
-        listForm.appendChild(option)
-    }
+// const example5=()=>{
+//     const colorMap=new Map();
+//     colorMap.set('book1','blue');
+//     colorMap.set('book2','red');
+//     colorMap.set('book3','green');
+//     const listForm=document.getElementById("colors");
+//     for (let [key,value] of colorMap){
+//         const option=document.createElement('option');
+//         option.value=[value];
+//         listForm.appendChild(option)
+//     }
+// }
+
+
+// const fillMyListViaSet=()=>{
+//     const mySet=new Set();
+//     mySet.add(2);
+//     mySet.add("samin");
+//     mySet.add("hosseini");
+
+//     const formList=document.getElementById("colors");
+//     for (let item of mySet){
+//         const option = document.createElement('option');
+//         option.value=item;
+//         formList.appendChild(option);
+//     }
+//     mySet.clear();
+//     console.log(mySet);
+// }
+
+
+// const testRepetedvalues=()=>{
+//     const numbers = [1,1,2,2,3,4,5];
+//     const uniqueNumbers1 = new Set(numbers);
+//     const uniqueNumbers2 = [...new Set(numbers)]
+//     console.log(numbers);
+//     console.log(uniqueNumbers1);
+//     console.log(uniqueNumbers2)
+// }
+
+
+// const testDate=()=>{
+    // const currentdate = new Date();
+//     // console.log(currentdate)
+
+    // const specificdate = new Date(2001,11,18,8,30);
+//     // console.log(specificdate);
+
+    // const current = new Date();
+    // console.log(current.getFullYear());
+    // document.getElementById("emptySpace").innerText=current.getMinutes();
+
+    // const timestamp= Date.now()
+    // console.log(timestamp);
+
+//     const date=new Date();
+//     document.getElementById("emptySpace").innerText=date.toDateString();
+//     console.log(date.toDateString());
+//     console.log(date.toLocaleDateString());
+// }
+
+
+// const testRegexp=()=>{
+//     // const regex = new RegExp('Hello','i');
+//     // console.log(regex.test('apple'));
+
+//     // const testString="Hello , world";
+//     // const match = testString.match(regex);
+//     // console.log(match);
+
+//     // const regex2 = /hello/;
+//     // const text="Hello, world! hello again!";
+//     // console.log(regex2.test(text))
+// }
+
+// const testSecurePass=()=>{
+//     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/; 
+//     document.getElementById("passWord").value;
+//     if(passRegex.test(password)){
+//         alert("secure")
+//     }else{
+//         alert("unsecure")
+//     }
+// }
+
+
+const testNewFunction=()=>{
+    // const add=new Function('a','b','return a+b');
+    // console.log(add(2,'5'))
+}
+
+const testNewFunction1=()=>{
+    // const turnToUpperCase= new Function('str','return str.toUpperCase()');
+    // const result= turnToUpperCase('Hello class');
+    // console.log(result)
+}
+
+// const testNewFunction2=()=>{
+//     const complicatedFunc= new Function('a','b','return alert(a+b),console.log(a+b)');
+//     complicatedFunc('hi',22);
+// }
+
+
+// const testNewFunction3=()=>{
+//     const operation='multiply';
+//     const calculate=new Function('x','y',' return a ')
+// }
+
+// const handleGetData=()=>{
+//     alert('I learn onclick');
+// }
+
+// const handleChange=()=>{
+//     alert("input changed");
+//     alert('changed to :' + document.getElementById("inputTXT").value);
+// }
+
+// const handleMouseOver=()=>{
+//     document.getElementById("mouseOverText").style.backgroundColor="pink";
+//     document.getElementById("status").innerText="mouse over"
+// }
+
+// const hanleMouseOut=()=>{
+//     document.getElementById("mouseOverText").style.backgroundColor="";
+//     document.getElementById("status").innerText="mouse out"
+// }
+
+// const handleKeyDown=(event)=>{
+//     alert('key pressed :' + event.key)
+//     if(event.key === 'Enter'){
+//         console.log("get data");
+//     }
+// }
+
+// window.onload= function (){
+//     alert("page has loaded")
+// }
+
+
+// const testTemplateString=()=>{
+//     let x = 244;
+//     let name = `${x} is a number`;
+//     alert(name)
+// }
+
+
+const testStringMethod=()=>{
+    // let text1="ABCDEFG";
+    // let length=text1.length;
+    // console.log(length)
+
+    // let text2="Hello World";
+    // let char2= text2.charAt(0);
+    // console.log(char2);
+
+    // let text3= "Hello World";
+    // let char3= text3.charCodeAt(0);
+    // console.log(char3)
+
+    // const name2="Hello";
+    // let letter=name2.at(1);
+    // console.log(letter);
+
+
+    // const name3="Hello";
+    // let letter3=name3[0];
+    // console.log(letter3)
+
+    // let text= "Hello World";
+    // text[0]="A";
+}
+
+
+const testSlice=()=>{
+    // let text1="AppleBananaKiwi";
+    // let part1=text1.slice(7,13);
+    // console.log(part1);
+
+    // let text2="Apple, Banana, Kiwi";
+    // let part2=text2.slice(7);
+    // console.log(part2);
+
+    // let text="Apple, Banana, Kiwi";
+    // let part=text.slice(-12,-6);
+    // console.log(part);
+}
+
+
+const testSubstring=()=>{
+    // let text1="AppleBananaKiwi";
+    // let part1=text1.substring(7,13);
+    // console.log(part1);
+    // alert(part1);
+}
+
+
+const textUplow=()=>{
+    // let text1= "HI SMART STUDENTS";
+    // let mytxt= text1.toUpperCase();
+    // let mytxt= text1.toLowerCase();
+    // console.log(mytxt);
+}
+
+
+// const testConcat=()=>{
+//     let text= "Hello"+"T"+"World";
+//     let myTXT= "Hello".concat("S","world!");
+//     console.log(text);
+//     console.log(myTXT);
+// }
+
+
+// const testTrim=()=>{
+//     let text1= "      Hello world!     ";
+//     let text2= text1.trim();
+//     let text3= text1.trimStart();
+//     let text4= text1.trimEnd();
+//     console.log(text1.length);
+//     console.log(text2.length)
+// }
+
+
+// const testPad=()=>{
+//     let text="51234567";
+//     let padded= text.padStart(16,"math");
+//     console.log(padded);
+// }
+
+
+// const testRepeat=()=>{
+//     let text = "hello world";
+//     let result = text.repeat(2);
+//     console.log(result);
+// }
+
+
+// const testReplace=()=>{
+//     let text = "please visit our website !";
+//     let newText = text.replace("website","Melorinet");
+//     let newtxt1 = text.replace("WEBSITE","melorinet");
+//     let newtxt2 = text.replace(/WEBSITE/g,"melorinet");
+//     console.log(text);
+//     console.log(newtxt2)
+// }
+
+
+const testReplaceAll=()=>{
+    
 }
