@@ -461,6 +461,53 @@ const textUplow=()=>{
 // }
 
 
-const testReplaceAll=()=>{
-    
+// const testReplaceAll=()=>{
+//     let text='فارسی زبان شیرین جهان است. این یک متن فارسی است';
+//     console.log(text);
+//     console.log(text.replaceAll("فارسی","پرشین"));
+// }
+
+// const testSplit=()=>{
+//     let TXT="hello";
+//     console.log(TXT.split(""));
+//     console.log(TXT.split(","));
+// }
+
+const testSearchMethods=()=>{
+    let text="because the sky is high sky!";
+    // let index1= text.indexOf("sky");
+    // console.log(index1);
+
+    // let lastIndex=text.lastIndexOf("sky");
+    // console.log(lastIndex);
+
+    // console.log(text.indexOf("me"));
+
+    // let result=text.search("high");
+    // console.log(result);
+
+    // let myMatch= text.match("he");
+    // console.log(myMatch);
+
+    // let includes1=text.includes("حرف سیاسی");
+    // let includes2=text.includes("حرف سیاسی",5);
+    // let includes3=text.includes("the");
+    // console.log(includes3);
+
+    // let x=text.startsWith("because");
+    // let y=text.startsWith("the");
+    // console.log(y);
+
+    // let z=text.endsWith("!");
+    // console.log(z);
+}
+
+
+const giveFullName=()=>{
+    let FName="samin";
+    let LName="hosseini";
+    let FullName= "welcome" + FName + "," + LName;
+    let fName= `welcome ${FName},${LName}`;
+    console.log(FullName);
+    console.log(fName);
 }
