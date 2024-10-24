@@ -503,11 +503,122 @@ const testSearchMethods=()=>{
 }
 
 
-const giveFullName=()=>{
-    let FName="samin";
-    let LName="hosseini";
-    let FullName= "welcome" + FName + "," + LName;
-    let fName= `welcome ${FName},${LName}`;
-    console.log(FullName);
-    console.log(fName);
+// const giveFullName=()=>{
+//     let FName="samin";
+//     let LName="hosseini";
+//     let FullName= "welcome" + FName + "," + LName;
+//     let fName= `welcome ${FName},${LName}`;
+//     console.log(FullName);
+//     console.log(fName);
+// }
+
+
+const testNan=()=>{
+    // let x=100/ "apple";
+    // let y=100/ "50";
+    // let z=-2/0;
+    // console.log(x);
+    // console.log(y);
+    // console.log(z);
+}
+
+const testToString=()=>{
+    // let x=123;
+    // let y='123';
+    // let x1=x.toString();
+    // let type=typeof(x)
+    // console.log(x1);
+    // console.log(x.toString());
+    // console.log(type);
+    // console.log(typeof(y));
+    // console.log(typeof(x1));
+}
+
+const textToExp=()=>{
+    // let x= 8.3436;   
+    // let y= x.toExponential(2);
+    // console.log(y);
+    // let z= 6
+    // let z1= z.toExponential(5);
+    // console.log(z1);
+}
+
+const testToFixed=()=>{
+    // let x=8.365;
+    // let x1= x.toFixed(2);
+    // let y=6.677;
+    // let y1=y.toFixed(4);
+    // console.log(x1);
+    // console.log(y1);
+}
+
+const testToP=()=>{
+    // let x= 8.335;
+    // let y= x.toPrecision(3);
+    // console.log(y);
+    // console.log(typeof(y));
+}
+
+const testValueOf=()=>{
+    // let x= 123;
+    // let x1= x.valueOf()
+    // console.log(x1);
+    // console.log(typeof(x1))
+}
+
+const testNumber=()=>{
+    // let x= 12;
+    // let x1= "12";
+    // let y= Number(x);
+    // console.log(y);
+    // console.log(typeof(y));
+
+    // let a= true;
+    // let b= false;
+    // console.log(Number(a));
+    // console.log(Number(b));
+}
+
+const testParsF=()=>{
+    // let t= parseFloat("1.b123");
+    // let t1= parseFloat("123apple456");
+    // console.log(t);
+}
+
+const testJoin=()=>{
+    // const x=["a","b","c"];
+    // let t= x.join(",");
+    // let t1= x.join("");
+    // console.log(t)
+    // console.log(t1)
+}
+
+const testPop=()=>{
+    // const x=["a","b","c"];
+    // let t= x.pop();
+    // console.log(t);
+    // console.log(x)
+}
+
+const testPush=()=>{
+    // const x=["a","b","c"];
+    // x.push("d");
+    // console.log(x)
+}
+
+const testShift=()=>{
+    // const x=["a","b","c"];
+    // console.log(x.shift());
+    // console.log(x)
+    // console.log(x.shift());
+    // console.log(x)
+    // x.shift();
+    // console.log(x)
+}
+
+const testUnShift=()=>{
+    const x=["b","c","d"];
+    console.log(x.unshift("a"));
+    x[3]="e";
+    console.log(x)
 }
