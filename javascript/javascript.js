@@ -503,14 +503,14 @@ const testSearchMethods=()=>{
 }
 
 
-// const giveFullName=()=>{
-//     let FName="samin";
-//     let LName="hosseini";
-//     let FullName= "welcome" + FName + "," + LName;
-//     let fName= `welcome ${FName},${LName}`;
-//     console.log(FullName);
-//     console.log(fName);
-// }
+const giveFullName=()=>{
+    // let FName="samin";
+    // let LName="hosseini";
+    // let FullName= "welcome" +" " + FName + "," + LName;
+    // let fName= `welcome ${FName},${LName}`;
+    // console.log(FullName);
+    // console.log(fName);
+}
 
 
 const testNan=()=>{
@@ -617,8 +617,256 @@ const testShift=()=>{
 }
 
 const testUnShift=()=>{
-    const x=["b","c","d"];
-    console.log(x.unshift("a"));
-    x[3]="e";
-    console.log(x)
+    // const x=["b","c","d"];
+    // console.log(x.unshift("a"));
+    // x[3]="e";
+    // console.log(x)
+}
+
+const testReplaceAll=()=>{
+    // let text="من دانشجوی کامپیوتر هستم.کامپیوتر رشته ی بسیار خوبی است";
+    // let t=text.replaceAll("کامپیوتر","هوش مصنوعی");
+    // console.log;
+    // console.log(t);
+}
+
+const testSplit=()=>{
+    // let text="hello hi how are you?";
+    // console.log(text.split(""));
+    // console.log(text.split(","));
+}
+
+const testSearch=()=>{
+    let text="This is a SMART student is smart";
+    // let index= text.indexOf("smart");
+    // console.log(index);
+    // let lastIndex= text.lastIndexOf("smart");
+    // console.log(lastIndex)
+    // console.log(text.indexOf("my"));
+
+    // let result=text.search("smart");
+    // console.log(result);
+
+    // let myMatch= text.match(/smart/gi);
+    // let myIndex= myMatch.index;
+    // let myInput= myMatch.input;
+    // console.log(myMatch);
+    // console.log(myIndex);
+    // console.log(myInput);
+
+    // let includes1=text.includes("This");
+    // let includes2=text.includes("This",10);
+    // console.log(includes1);
+    // console.log(includes2);
+
+    // let t=text.startsWith("is");
+    // console.log(t)
+}
+
+const testConcat=()=>{
+    // const arr1=["RED","GREEN"];
+    // const arr2=["gold","silver",123];
+    // const newArr=arr1.concat(arr2);
+    // console.log(newArr)
+
+    // const arr3=["banana","apple"];
+    // const newArr1=arr1.concat(arr2,arr3);
+    // console.log(newArr1)
+}
+
+const testCopyWithIn=()=>{
+    // const colors=["blue","red","green","black","pink","white","purple"];
+    // colors.copyWithin(2,0,3);
+    // console.log(colors)
+}
+
+const testFlat=()=>{
+    // const arr=[1,2,[3,4],[5,6],7,8];
+    // const newArr=arr.flat();
+    // console.log(newArr)
+}
+ 
+const testFlatMap=()=>{
+    // const arr=[1,2,[3,4],[5,6],7,8];
+    // const newarr1=arr.flat().flatMap(x=> [x*10]);
+    // const newarr2=arr.flat().flatMap(x=> [x, x+"item"]);
+    // console.log(newarr1)
+    // console.log(newarr2)
+}
+
+const testMethods=()=>{
+    // const colors= ["blue","red","black","green","yellow"];
+    // // colors.splice(2,1,"f1","f2");
+    // const newArr=colors.slice(2);
+    // console.log(newArr)
+}
+
+const search=()=>{
+    // const names=["a","b","c","d"];
+    // let Pos=names.indexOf("a",5);
+    // console.log(Pos)
+}
+
+const testInclude=()=>{
+    // const names=["a","b","c","d"];
+    // let t= names.includes("b");
+    // console.log(t)
+}
+
+const Find=()=>{
+//     const numbers=[12,13,14,15,16,12];
+//     let first=numbers.find(myfunction);
+// }
+// const myfunction=(value,index,array)=>{
+//     if(value===12){
+//         console.log(index);
+//     }
+}
+
+const testF=()=>{
+//     const numbers=[4,8,12,16,20,24];
+//     let t= numbers.findIndex(MyFunction);
+//     console.log(t)
+// }
+
+// const MyFunction=(value,index,array)=>{
+//     return value>12
+}
+
+const testFL=()=>{
+    // const t=[5,10,15,20,25];
+    // let high=t.findLast(x=> x>15);
+    // console.log(high)
+}
+
+const testFLI=()=>{
+    // const t=[5,10,15,20,25];
+    // let high=t.findLastIndex(x=> x>15);
+    // console.log(high)
+}
+
+const sort=()=>{
+    // const array=["orange","apple","Banana",2,14];
+    // let sorted = array.sort();
+    // console.log(sorted);
+}
+
+const rv=()=>{
+    // const array=["orange","apple","Banana"];
+    // let r= array.reverse();
+    // console.log(r)
+}
+
+const FE=()=>{
+//     const nums=[15,3,24,16,8];
+//     nums.forEach(myFUC);
+// }
+// let myarr=[]
+// const myFUC=(value,index,array)=>{
+//     let txt="";
+//     txt += value + "=" + index;
+//     myarr.unshift(txt)
+//     console.log(myarr)
+}
+
+const MA=()=>{
+//     const nums=[12,3,24,16,8];
+//     nums.map(myFUC2);
+// }
+// let myarr2=[]
+// const myFUC2=(value,index,array)=>{
+//     myarr2.unshift(value *2 *index);
+//     console.log(myarr2)
+}
+
+const FM=()=>{
+    // const arr=[1,2,3,4,5,6];
+    // const newarr= arr.flatMap((x)=> x*2);
+    // console.log(newarr);
+}
+
+const fI=()=>{
+//     const nums=[12,6,20,35,8];
+//     const over12=nums.filter(myfunction)
+//     console.log(over12)
+// }
+// const myfunction = (value,index,array)=>{
+//     return value < 12
+}
+
+const rd =()=>{
+//     const nums=[12,6,20,35,8];
+//     let t = nums.reduce(f);
+//     console.log(t)
+// }
+// const f=(total,value,index,array)=>{
+//     return total + value;
+}
+
+
+const sortArray=()=>{
+    // let array=[30,[21,42],60,85];
+    // let sortedArray1=array.flat().sort((a,b) => a - b);
+    // let sortedArray2=array.flat().sort((a,b) => b - a);
+    // console.log(sortedArray1)
+}
+
+const unitTest=()=>{
+    // const nums = [12,21,32,45];
+    // let allOver=nums.every(everyFunc);
+    // console.log(allOver);
+}
+const everyFunc=(value,index,array)=>{
+    // if(value>10){
+    //     console.log(value + "is bigger than 20");
+    // }
+    // return value>10
+}
+
+const formArr=()=>{
+    // let data="ABCDE12345";
+    // let v=Array.from(data);
+    // console.log(v)
+}
+
+const testKey=()=>{
+    // const color=["red","blue","green","black"];
+    // const keys=color.keys();
+    // let text="";
+    // for (let x of keys){
+    //     text += x;
+    //     console.log(text);
+    //     console.log(Array.from(text));
+    // }
+}
+
+const testEntry=()=>{
+    // const color=["red","blue","green","black"];
+    // const entryList= color.entries();
+    // console.log(entryList);
+    // for (let x of entryList){
+    //     console.log(x);
+    // }
+}
+
+const testWith=()=>{
+    // const color=["red","blue","green","black"];
+    // const newArr= color.with(0,"yellow");
+    // console.log(newArr);
+}
+
+const testSpread=()=>{
+    // const color=["red","blue","green","black"];
+    // const nums=[12,6,20,35,8];
+
+    // const newCombinedArray=[...color, ...nums];
+    // console.log(newCombinedArray);
+}
+
+const testRandom=()=>{
+    console.log(Math.random());
+    console.log(Math.floor(Math.random()*10));
+    console.log(Math.floor(Math.random()*11));
+    console.log(Math.floor(Math.random()*100));
+    console.log(Math.floor(Math.random()*100)+1);
 }
