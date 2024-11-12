@@ -864,9 +864,79 @@ const testSpread=()=>{
 }
 
 const testRandom=()=>{
-    console.log(Math.random());
-    console.log(Math.floor(Math.random()*10));
-    console.log(Math.floor(Math.random()*11));
-    console.log(Math.floor(Math.random()*100));
-    console.log(Math.floor(Math.random()*100)+1);
+    // console.log(Math.random());
+    // console.log(Math.floor(Math.random()*10));
+    // console.log(Math.floor(Math.random()*11));
+    // console.log(Math.floor(Math.random()*100));
+    // console.log(Math.floor(Math.random()*100)+1);
+}
+
+const testFunction=(age)=>{
+    // let text= age > 18 ? 
+    //     "your age is bigger than 18" : "under 18"
+    //     console.log(text)
+}
+
+const showLoading=(modal)=>{
+    // switch (modal) {
+    //     case 0:
+    //         console.log("dont show modal")
+    //         break;
+    //     case 1:
+    //         console.log("show modal")
+    //         break;
+    
+    //     default:
+    //         console.log("this is undefind")
+    //         break;
+        
+    // }
+}
+
+const testTrueFalse=(show)=>{
+    // let text = (show) ? "show the loading" : "dont show";
+    // console.log(text)
+}
+
+const testNullish=()=>{
+    // let name= "samin";
+    // let text= "missing name";
+    // let result= name ?? text;
+    // console.log(result);
+}
+
+const testIfElse=(productNumber)=>{
+    // if (productNumber === 0){
+    //     console.log("you cant put your peoductnumber zero!")
+    // }
+    // else if(productNumber === 5){
+    //     console.log("its ok!")
+    // }
+    // else{
+    //     console.log("not allowed")
+    // }
+}
+
+const testSC=(number)=>{
+    // switch (number) {
+    //     case 1:
+    //         console.log("a");
+    //         break;
+    //     case 2:
+    //         console.log("b");
+    //         break;
+    //     case 3:
+    //         console.log("c");
+    //         break;
+    //     default:
+    //         console.log("function is running")
+    // }
+}
+
+const testW=()=>{
+    // let i=0;
+    // while(i<3){
+    //     console.log("i is lower than 3");
+    //     i++
+    // }
 }
