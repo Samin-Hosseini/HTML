@@ -940,3 +940,48 @@ const testW=()=>{
     //     i++
     // }
 }
+
+const testBreak = ()=> {
+    // for(let i=0 ; i<20 ; i++){
+    //     if( i === 4) {break;}
+    //     console.log(i)
+    // }
+}
+
+const testDes=()=>{
+    // const person={
+    //     fname:"samin",
+    //     lname:"hosseini",
+    //     age:23
+    // }
+    // let {fname,lname,age:birthday}=person;
+    // console.log(fname);
+    // console.log(birthday)
+}
+
+const testDesArr=()=>{
+    // const nums=[10,20,30,40];
+    // let[num1,num2,b,a]=nums;
+    // console.log(num1);
+    // console.log(b)
+
+    // let [n11,n22,...rest]=nums;
+    // console.log(rest);
+}
+
+// const throwError=()=>{
+//     throw "unsecure password";
+// }
+
+const classTest=()=>{
+    class Car{
+        constructor(name,year){
+            this.name = name;
+            this.year = year
+        }
+    }
+    const myCar=new Car("C1",2015);
+    console.log(myCar)
+    const myCar2=new Car("C2",2010);
+    console.log(myCar2)
+}
